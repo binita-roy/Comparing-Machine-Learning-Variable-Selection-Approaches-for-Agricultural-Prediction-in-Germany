@@ -15,7 +15,7 @@ This thesis is part of the **StaPrax-Regio Project**, a collaborative initiative
 3. Which soil and weather conditions can explain an expected effect of a new fertilization strategy?
 
 ## Dataset
-The dataset was prepared by the** R&D team of SKW Stickstoffwerke Piesteritz GmbH** and includes field trial data from **2021** and **2022** across **11 federal states of Germany**. Key features of the dataset include:
+The dataset was prepared by the **R&D team of SKW Stickstoffwerke Piesteritz GmbH** and includes field trial data from **2021** and **2022** across **11 federal states of Germany**. Key features of the dataset include:
 - 41 trial locations with data distributed unevenly across states.
 - Temporal resolution:
   - Soil and field experiment variables: measured once per year.
@@ -71,24 +71,24 @@ Both Lasso and Random Forest-Recursive Feature Elimination methods exhibits the 
 - Predictability: LASSO (28.7%) and RF-RFE (42%)
 
 ### Expected Better Yield Conditions
-- 0% fertilizer applied at earlier stage of elongation (T3)
-- Presence of urease inhibitor (UI) at later stage of elongation (T4)
-- Soil and Weather: 2 mg/kg Cu, 2.5 mg/kg Zn, 20% soil moisture of T4 at 0-60cm soil depth
+- **0%** fertilizer applied at earlier stage of elongation **(T3)**
+- Presence of urease inhibitor **(UI)** at later stage of elongation **(T4)**
+- Soil and Weather: **2 mg/kg** Cu, **2.5 mg/kg** Zn, **20%** soil moisture of T4 at 0-60cm soil depth
   
 Based on these conditions found from the analysis, the following nitrogen fertilization strategies can be recommended.
 
 ![Recommended Fertilization Strategies](https://github.com/binita-roy/Comparing-Machine-Learning-Variable-Selection-Approaches-for-Agricultural-Prediction-in-Germany/blob/10b07177aa478fb0cd444658b8270028e45e7478/Recommended%20Fertilization%20Strategies.png)
 
 ## Conclusion
-- Random Forest-Recursive Feature Elimination can be adopted for predicting the winter wheat yield with 42% predictability.
-- Copper (Cu), zinc (Zn), and soil moisture are important  soil and weather conditions affected the relative change in yield negatively and should be restricted to a limited value.
-- 5 variants out of 11 variants of nitrogen fertilizations strategies can be expected to produce higher amount of yield comparing to the baseline strategy.
+- **Random Forest-Recursive Feature Elimination** can be adopted for predicting the winter wheat yield with **42% predictability**.
+- **Copper (Cu)**, **zinc (Zn)**, and **soil moisture** are important  soil and weather conditions affected the relative change in yield negatively and should be restricted to a limited value.
+- **5 variants out of 11 variants of nitrogen fertilizations strategies** can be expected to produce higher amount of yield comparing to the baseline strategy.
 - The findings of the prediction models can be utilized in new locations within Germany for winter wheat.
 
 ## Acknowledgement
-- My heartiest gratitude to my supervisors Prof. Dr. Masahiro Ryo and my co-supervisor Stefan Stiller.
-- I am grateful to my work group of "Artificial Intelligence" at Leibniz Centre for Agricultural Landscape Research (ZALF) e. V.
-- I am also thankful to the other project partners of StaPrax Project, specially the R&D Team of SKW Stickstoffwerke Piesteritz GmbH and Dr. Enrico Thiel for sharing the dataset and the valuable insights and knowledge about the dataset.
+- My heartiest gratitude to my supervisors **Prof. Dr. Masahiro Ryo** and my co-supervisor **Stefan Stiller**.
+- I am grateful to my work group of **Artificial Intelligence** at **Leibniz Centre for Agricultural Landscape Research (ZALF) e. V.**
+- I am also thankful to the other project partners of StaPrax Project, specially the R&D Team of **SKW Stickstoffwerke Piesteritz GmbH** and **Dr. Enrico Thiel** for sharing the dataset and the valuable insights and knowledge about the dataset.
 
 ## Author
 Binita Roy
