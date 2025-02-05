@@ -77,8 +77,6 @@ Both Lasso and Random Forest-Recursive Feature Elimination methods exhibits the 
   
 Based on these conditions found from the analysis, the following nitrogen fertilization strategies can be recommended.
 
-![Recommended Fertilization Strategies](https://github.com/binita-roy/Comparing-Machine-Learning-Variable-Selection-Approaches-for-Agricultural-Prediction-in-Germany/blob/10b07177aa478fb0cd444658b8270028e45e7478/Recommended%20Fertilization%20Strategies.png)
-
 ## Conclusion
 - **Random Forest-Recursive Feature Elimination** can be adopted for predicting the winter wheat yield with **42% predictability**.
 - **Copper (Cu)**, **zinc (Zn)**, and **soil moisture** are important  soil and weather conditions affected the relative change in yield negatively and should be restricted to a limited value.
